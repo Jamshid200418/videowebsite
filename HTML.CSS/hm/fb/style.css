@@ -1,0 +1,104 @@
+/* 
+letter-spacing: horizontal spacing
+line-height: vertical spacing
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(136, 164, 229);
+    width: 100%;
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 10px;
+    list-style: none;
+    border: 1px solid purple;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    background: url(./pikachu.jpg);
+    height: 300px;
+}
+
+main {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+img {
+    width: 300px;
+}
+
+/* span {
+    width: 100px;
+    height: 100px;
+    background-color: #c51111;
+    margin: 100px;
+    padding: 100px;
+} */
+
+.learn-more {
+    display: inline-block;
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    color: purple;
+    /* transition: all 1s linear; */
+}
+
+.learn-more:hover {
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+article {
+    margin-top: 10px;
+    border: 1px solid purple;
+}
+
+article:nth-child(1) {
+    margin-top: 0;
+}
+
+
+
+/* .box {
+    width: 50%;
+    height: 100px;
+    background-color: #e386fd;
+} */
+footer{
+    margin: 30px;
+    padding: 30px;
+    text-align: unset;
+
+}
+
+nav  li:hover{
+    color: black;
+    background-color: rgb(19, 19, 13);
+    border: 1px solid yellow;
+    color: yellow;
+}
